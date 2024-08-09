@@ -1,0 +1,58 @@
+Após o download e a instalação do git... 
+Abra o terminal Git Bash, que se iniciará de forma predeterminada no diretório principal (~) ou /c/Users// do seu usuário.
+
+------------------------------------
+	Se deseja determinar o diretório atual, digite pwd na linha de comando $
+------------------------------------
+	Se for usar o git pela primeira vez, primeiro deverá configura-lo, estabelecendo seu nome de usuário e endereço de email, já que esta informação será usada de maneira inalterável nos “commits” que enviar.
+
+	$ git config --global user.name "Nome do usuário"
+	$ git config --global user.email "seu@email.com"
+------------------------------------
+	O comando ls listará os arquivos presentes no diretório principal, depois, você deverá acessar a pasta Desktop; nela se encontra o projeto no qual se deseja iniciar o repositório
+------------------------------------
+	Finalmente, executaremos o comando git init para começar a rastrear o repositório indicado
+------------------------------------
+	O git mostrará o nome da branch principal que está em uso que, normalmente, se chama master.
+
+Nota: Para garantir a compatibilidade no futuro é recomendado atualizar o nome da branch principal, de master para main, com o seguinte comando:
+
+	$ git branch -M main
+------------------------------------
+	Para conhecer o estado em que se encontram os arquivos do repositório, utilize o seguinte comando:
+
+	$ git status
+"Em vermelho constará os arquivos e pastas sem rastreamento (não vistos pelo GitHub)"
+------------------------------------
+	Para começar a rastrear os arquivos, executamos o comando git add, que adiciona o conteúdo ao rastreio do Git. Podemos faze-lo das seguintes formas:
+
+	$ git add nome_do_arquivo /***Adiciona apenas o arquivo mencionado***/ ou
+	$ git add . /***Adiciona todos os arquivos do projeto de uma só vez***/
+------------------------------------
+	Para confirmar os arquivos nomeamos as alterações com um nome que faça sentido, e descreva as mudanças que estamos realizando em uma frase simples. Utilizamos, então, o seguinte comando:
+
+	$ git commit -m "Mensagem descritiva do commit"
+------------------------------------
+
+
+== A PARTIR DE AGORA SERÁ FEITO NO VS CODE ==
+
+
+------------------------------------
+Abrindo o terminal do VsCode...
+	-Use: git remote -v (para visualizar repositório criado).
+	-caso não esteja visível use: git remote add origin https://github.com/Alex6W2B/Modelandoambiente.git  (O link inserido será do repositório criado), logo após use o 'git remote -v' novamente para conferir
+------------------------------------
+Para atualizar o estado do projeto para o repositório...
+	use: git add . (para adicionar todos os arquivos)
+	use: git commit -m "segundo teste commit" (para commitar, e entre aspas coloque um comentário que especifique o que foi feito/alterado).
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+	git push origin main = "envia o projeto atualizado"
+	git pull origin main = "baixa o projeto que está atualizado na nuvem"
+------------------------------------
