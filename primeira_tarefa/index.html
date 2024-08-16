@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Erros</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="./js/main.js" type="module"></script>
+        <script type="module">
+            import { mensagem, posts } from "./js/main.js";
+            console.log(mensagem);
+
+            const data = await posts()
+            console.log(data)
+
+            // function criarElemento(texto, cor){
+            //     const div = document.querySelector('div.posts')
+            //     const p = document.createElement('p')
+            //     p.innerText = texto
+            //     p.style.color = cor
+            //     div.appendChild(p)
+            // }
+
+            // Arrow Functions
+            const criarElemento = (texto, cor) => {
+                const div = document.querySelector('div.posts')
+                const p = document.createElement('p')
+                p.innerText = texto
+                p.style.color = cor
+                div.appendChild(p)
+            }
+            
+            for (let i = 0; i < data.length; i++) {
+                const post = data[i]
+                
+                criarElemento(post['title'], 'red')
+                criarElemento(post['body'], 'green')
+            }
+            
+        </script>
+    </head>
+    <body>
+        <h1>BEM VINDO AO SITE!</h1>
+        <p>
+            O cravo brigou com a rosa </br>
+            Debaixo de uma sacada</br>
+            O cravo saiu ferido</br>
+            E a rosa despedaçada</br>
+            </br></br>
+            O cravo ficou doente</br>
+            E a rosa foi visitar</br>
+            O cravo teve um desmaio</br>
+            E a rosa pôs-se a chorar</br>
+            </br></br>
+            O cravo brigou com a rosa</br>
+            Debaixo de uma sacada</br>
+            O cravo saiu ferido</br>
+            E a rosa despedaçada</br>
+            </br></br>
+            O cravo ficou doente</br>
+            E a rosa foi visitar</br>
+            O cravo teve um desmaio</br>
+            E a rosa pôs-se a chorar
+        </p>
+
+        <div class="posts"></div>
+    </body>
+</html>
