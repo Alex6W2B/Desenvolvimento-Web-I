@@ -30,12 +30,17 @@
                 div.appendChild(p)
             }
             
-            for (let i = 0; i < data.length; i++) {
-                const post = data[i]
-                
-                criarElemento(post['title'], 'red')
-                criarElemento(post['body'], 'green')
-            }
+            const botaoMostrarDados = document.querySelector('button#botaoMostrarDados')
+            botaoMostrarDados.addEventListener('click', function() {
+                const div = document.querySelector('div.posts')
+                div.innerText = ""
+                for (let i = 0; i < data.length; i++) {
+                    const post = data[i]
+                    
+                    criarElemento(post['title'], '#FF99B0')
+                    criarElemento(post['body'], '#4E97D1')
+                }
+            })
             
         </script>
     </head>
@@ -62,6 +67,8 @@
             O cravo teve um desmaio</br>
             E a rosa pôs-se a chorar
         </p>
+
+        <button id="botaoMostrarDados">Clique aqui para visualizar o JSON</button>
 
         <div class="posts"></div>
     </body>

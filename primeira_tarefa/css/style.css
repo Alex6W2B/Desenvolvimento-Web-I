@@ -29,6 +29,10 @@ h1:hover{
     color: green;
 }
 
+button {
+    margin: 6%;
+}
+
 /* Mobile */
 @media only screen and (min-width: 768px) {
     body {
