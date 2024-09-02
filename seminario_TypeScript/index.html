@@ -7,13 +7,12 @@
         <title>Basic TypeScript</title>
 
         <link rel="stylesheet" type="text/css" href="/style.css">
-        <script src="index.js" type="module"></script>
     </head>
     <body>
         <fieldset>
             <p>Cálculo básico matemático</p>
 
-            <div>
+            <div class="form-group">
                 <input type="number" id="n1" value="0">
                 <select name="operator" id="operator">
                     <option value="+" selected>+</option>
@@ -21,11 +20,11 @@
                     <option value="*">*</option>
                     <option value="/">/</option>
                 </select>
+                
+                <input type="number" id="n2" value="0">
+                <span> = </span>
+                <output id="result">0</output>
             </div>
-
-            <input type="number" id="n2" value="0">
-            <span> = </span>
-            <output>0</output>
         </fieldset>
 
         <script src="index.js" type="module"></script>
