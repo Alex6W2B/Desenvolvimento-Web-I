@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    color: #fff;
+    background-color: #111111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Mobile */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: rgb(0, 60, 80);
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: rgb(61, 0, 0);
+    }
+}
