@@ -1,0 +1,10 @@
+﻿npm init -y: Cria o arquivo package.jason, nele adicionamos a seguinte linha ao nosso exemplo prático… "type": "module",
+
+
+npm i -D typescript: Instala o TypeScript localmente em modo desenvolvedor (por isso o -D).
+
+
+npx tsc –init: Um arquivo tsconfig.json será gerado. Para o nosso exemplo prático, o alteramos o conteúdo da linha “module” para "module": "ESNext",
+
+
+npx tsc: pega todos os arquivos .ts e gera os arquivos correspondentes em .js
