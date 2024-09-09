@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Calculadora</legend>
+
+        <div class="calculator">
+            <input type="text" id="display" value="0" readonly>
+            <div class="button-group">
+                <button class="btn" data-num="1">1</button>
+                <button class="btn" data-num="2">2</button>
+                <button class="btn" data-num="3">3</button>
+            </div>
+            <div class="button-group">
+                <button class="btn" data-num="4">4</button>
+                <button class="btn" data-num="5">5</button>
+                <button class="btn" data-num="6">6</button>
+            </div>
+            <div class="button-group">
+                <button class="btn" data-num="7">7</button>
+                <button class="btn" data-num="8">8</button>
+                <button class="btn" data-num="9">9</button>
+            </div>
+            <div class="button-group">
+                <button class="btn" data-op="+">+</button>
+                <button class="btn" data-num="0">0</button>
+                <button class="btn" data-op="-">-</button>
+            </div>
+            <div class="operation-group">
+                <button class="btn" data-op="-">-</button>
+                <button class="btn" data-op="*">*</button>
+                <button class="btn" data-op="/">/</button>
+            </div>
+            <div class="control-group">
+                <button id="calculate">Calcular</button>
+                <button id="clear">Limpar</button>
+            </div>
+            <div class="result">
+                <span>=</span> <output id="result">0</output>
+            </div>
+        </div>
+    </fieldset>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
