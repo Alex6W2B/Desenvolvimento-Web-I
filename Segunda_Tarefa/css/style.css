@@ -1,0 +1,404 @@
+/*Cores utilizadas
+#0f0f0f
+#ebebeb
+#545161
+*/
+
+
+/* GRID SYSTEM */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #0f0f0f;
+}
+
+body p {
+    font-size: 25px;
+}
+
+body h1 {
+    font-size: 39px;
+}
+
+.container {
+    width: 1140px;
+    display: block;
+    margin: 0 auto;
+}
+
+div.col-1 {
+    width: 62px;
+    float: left;
+    margin-right: 36px;
+}
+
+div.col-2 {
+    width: 160px;
+    float: left;
+    margin-right: 36px;
+}
+
+div.col-3 {
+    width: 258px;
+    float: left;
+    margin-right: 36px;
+}
+
+div.col-4 {
+    width: 356px;
+    float: left;
+    margin-right: 36px;
+}
+
+div.col-5 {
+    width: 454px;
+    float: left;
+    margin-right: 36px;
+}
+
+div.col-6 {
+    width: 552px;
+    float: left;
+    margin-right: 36px;
+}
+
+div.col-7 {
+    width: 650px;
+    float: left;
+    margin-right: 36px;
+}
+
+div.col-8 {
+    width: 748px;
+    float: left;
+    margin-right: 36px;
+}
+
+div.col-9 {
+    width: 846px;
+    float: left;
+    margin-right: 36px;
+}
+
+div.col-10 {
+    width: 944px;
+    float: left;
+    margin-right: 36px;
+}
+
+div.col-11 {
+    width: 1042px;
+    float: left;
+    margin-right: 36px;
+}
+
+
+div.col-12 {
+    width: 1140px;
+    float: left;
+    display: block;
+}
+
+div.last-block {
+    margin-right: 0 !important;
+}
+/* END GRID SYSTEM */
+
+/* header */
+header {
+    width: 100%;
+    float: left;
+    display: block;
+    height: auto;
+    background: #ebebeb;
+}
+
+header div.col-2 h1#logo {
+    float: left;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+header div.col-8 h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 39px;
+    margin: 35px 0 35px 0;
+}
+
+header div.col-2 h2 {
+    float: right;
+    margin: 43.5px 0;
+}
+
+header div.col-2 h2 a {
+    color: #0F0F0F;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+header div.col-2 h2 a:hover{
+    color: #545161;
+}
+/* end header*/
+
+/* header-2 */
+header div.header-2 {
+    width: 100%;
+    float: left;
+    display: block;
+    background: #0F0F0F;
+    height: 48px;
+}
+
+div.header-2 p {
+    color: #ebebeb;
+    text-align: center;
+    margin: 10px 10px;
+}
+/* end header-2 */
+
+/* section#introdução */
+section#introdução {
+    width: 100%;
+    float: left;
+    display: block;
+    height: 470px;
+    background-image: url(../img/Fundo\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 36px;
+}
+
+section#introdução #margem {
+    width: 100%;
+    padding: 36px;
+    margin-top: 66.7px;
+    background-color: rgba(255, 255, 255, 0.65);
+    border-style: solid;
+    border-color: #0F0F0F;
+    box-sizing: border-box;
+}
+
+section#introdução div.container h1 {
+    margin: 0%;
+    margin-bottom: 36px;
+}
+
+section#introdução div.container p {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+section#introdução div.container p#last {
+    margin-top: 0%;
+    margin-bottom: 0px;
+}
+/* end section#introdução*/
+
+/* section#meio */
+section#meio {
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+section#meio h1 {
+    margin-top: 0%;
+    margin-bottom: 36px;
+}
+
+section#meio p {
+    margin-top: 0%;
+    margin-bottom: 36px;
+}
+
+section#meio div.col-6 img {
+    margin-top: 0%;
+    margin-bottom: 36px;
+}
+/* end section#meio */
+
+/* section#meio-2 */
+section#meio-2 {
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+section#meio-2 {
+    width: 100%;
+    float: left;
+    display: block;
+    height: 470px;
+    background-image: url(../img/Fundo\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 36px;
+}
+
+section#meio-2 #margem {
+    width: 100%;
+    padding: 36px;
+    margin-top: 54.2px;
+    background-color: rgba(255, 255, 255, 0.65);
+    border-style: solid;
+    border-color: #0F0F0F;
+    box-sizing: border-box;
+}
+
+section#meio-2 div.container h1 {
+    margin-bottom: 36px;
+    margin: 0%;
+}
+
+section#meio-2 div.container p {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+section#meio-2 div.container p#last {
+    margin-top: 0%;
+    margin-bottom: 0px;
+}
+/* end section#meio-2 */
+
+/* section#meio-3 */
+section#meio-3 {
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+section#meio-3 h1 {
+    margin-top: 0%;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+section#meio-3 h2 {
+    margin-top: 0px;
+    margin-bottom: 36px;
+}
+
+section#meio-3 p {
+    margin-top: 0%;
+    margin-bottom: 36px;
+    text-align: justify;
+}
+/* end section#meio-3 */
+
+/* section#fim */
+section#fim {
+    width: 100%;
+    float: left;
+    display: block;
+    height: auto;
+    background-image: url(../img/Fundo\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 36px;
+}
+
+section#fim div.col-3 {
+    margin-top: 50px;
+}
+
+section#fim div.col-3 p {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 36px;
+}
+
+section#fim div.col-3 p a{
+    color: #070707;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0%;
+}
+
+section#fim div.col-3 p a:hover{
+    color: #545161;
+}
+/* end section#fim */
+
+/* footer */
+footer {
+    width: 100%;
+    float: left;
+    display: block;
+    background: #ebebeb;
+}
+
+footer div.footer1 .centralizar {
+    display: block;
+    text-align: center;
+}
+
+footer div.footer1 .centralizar a {
+    color: #070707;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 0%;
+}
+
+footer div.footer1 .last-block {
+    display: block;
+    text-align: right;
+    float: right;
+}
+
+footer div.footer1 div.col-4 h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer div.footer1 div.col-4 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer div.footer1 .last-block p a {
+    color: #070707;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-right: 5px;
+}
+    
+footer div.footer1 div#search p a:hover{
+    color: #5f5f5f;
+}
+
+footer div.footer1 div#search {
+    float: right;
+}
+
+footer div.footer1 div.col-4 p#menor {
+    font-size: 15px;
+}
+
+footer div.footer2 {
+    background: #0f0f0f;
+    width: 100%;
+    float: left;
+    display: block;
+    height: 48px;
+}
+
+footer div.footer2 p{
+    text-align: center;
+    color: #ebebeb;
+    font-size: 25px;
+    margin: 10px 0 10px 0;
+}
+/* end footer */
